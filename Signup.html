@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in html</title>
+    <link rel="stylesheet" href="style1.css">
+ 
+  <script>
+    $(document).ready(function(){
+       
+        $(".su").click(function(e){
+            e.preventDefault();
+        if ($("#lala").val()=="") { 
+                alert("name is empty"); 
+                } 
+                else if ($("#lal").val()=="") { 
+                alert("mail is empty"); 
+                } 
+               else if ($("#pa").val()=="" ) { 
+                alert("password is empty"); 
+                } 
+               else  if ($("#co").val()=="" ) { 
+                alert(" contact is empty"); 
+                } 
+                 else{ 
+                alert("Sign Up successful");
+                
+            
+               
+                } 
+    });
+        });
+        </script>
+</head>
+<body>
+    <div class="whole">
+        
+        <form>
+            <div class="regi"><h1>LOGIN</h1><hr></div>
+        <div class="name">
+        <input type="text" placeholder="First name" id="lala" name="fname" required="name" value="">
+        </div>
+        <div class="mail"> <input type="text" placeholder="E-mail" id="lal" name="email"></div>
+        <div class="pass"><input type="password" placeholder="Password" id="pa" name="pas"></div>
+        <div class="contact"> <input type="text" placeholder="Contact" id="co" name="con"></div>
+        <div class="submitb"><button class="su">Submit</button></div>  
+        <a href="auraloom.html">Go Back To Home</a>
+    </div>
+        </div>
+         
+             </form>
+    </div>
+   
+   
+    
+   
+ 
+</body>
+
+
+</html>
