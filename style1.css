@@ -1,0 +1,52 @@
+body{
+    background-image: url("https://img.freepik.com/free-vector/prickly-juniper-branch-beige-gray-minimal-background_53876-113047.jpg?w=1380&t=st=1704988830~exp=1704989430~hmac=b318dc42b668d6ff4abd851e11afa31838220c79356346a8e430fb8c9c4baa1a");
+  background-size:cover;
+   
+}
+.whole{
+    text-align: center  ;
+    padding: 70px;
+    
+}
+form {
+ 
+   padding:10px;
+   border: 5px solid #111;
+   width: 400px;
+   margin-left:33%;
+   text-align: center;
+}
+form .name,.mail,.pass,.contact,.Ct-names,.check{
+    padding:6px;
+}
+form #sele{
+    border-radius: 4px;
+}
+form #lala,#lal,#sele,#pa,#co{
+    border-radius:4px;
+  
+    height: 30px;
+    width:200px;
+}
+form .su{
+    width:300px;
+    background-color:#BFCFE7;
+    height: 50px;
+    cursor:pointer;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: x-large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.in{
+   width:700px;
+   height:200px;
+   border:4px solid navy;
+   font-size: large;
+}
+.regi h1{
+    font-family: monospace;
+    font-size: xxx-large;
+}
+
