@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>know more using html ,css,bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: "ariel", sans-serif;
+            background-color: antiquewhite;
+        }
+
+        .heading h1 {
+            color: rgb(198, 5, 73);
+            font-size: 55px;
+            text-align: center;
+            margin-top: 35px;
+        }
+
+        .hero {
+            background-color: antiquewhite;
+            overflow: hidden;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 90%;
+            margin: 5% auto;
+        }
+
+        .hero-content {
+            flex: 1;
+            width: 600px;
+            margin: 0px 25px;
+            animation: fadeInUp 1s ease;
+        }
+
+        .hero-content h2 {
+            font-size: 38px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .hero-content p {
+            font-size: 24px;
+            line-height: 1.5;
+            margin-bottom: 40px;
+            color: #666;
+        }
+
+        .hero-content button {
+            display: inline-block;
+            background-color: #e4158a;
+            color: #fff;
+            padding: 12px 24px;
+            border-radius: 5px;
+            font-size: 20px;
+            border: none;
+            cursor: pointer;
+            transition: 0.3s ease;
+
+        }
+        .hero-content button a{
+            color: #fff;
+        }
+        .hero-content button:hover {
+            background-color: #e95dac;
+            transform: scale(1.1);
+        }
+        
+
+        .hero-image {
+            flex: 1;
+            width: 600px;
+            margin: auto;
+            animation: fadeInRight 1s ease;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .devs{
+            width: 100vw;
+        }
+
+        .devs ul{
+            list-style-type: none;
+            display: flex;
+            justify-content: space-evenly;
+            width: 100%;
+        }
+
+        .devs ul li{
+            width: 18rem;
+            background-color: rgba(166, 135, 94, 0.962);
+            border-radius: 15px;
+            outline: none;
+            border: none;
+            border-radius: 1em;
+            box-shadow: 5px 5px 10px;
+        }
+
+        .devs ul li img{
+            border-radius: 50%;
+            background-color: transparent;
+        }
+
+        .devs {
+            text-align: center;
+        }
+
+        .devs h1{
+            padding: 1em;
+            font-weight: 900;
+        }
+
+        .contacts{
+            color: black;
+            font-size: 2em;
+        }
+
+        @media screen and (max-width:768px) {
+            .heading h1 {
+                font-size: 45px;
+                margin-top: 30px;
+
+            }
+
+            .hero {
+                margin: 0px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            .container {
+                width: 100%;
+                flex-direction: column;
+                margin: 0px;
+                padding: 0px 40px;
+                display: flex;
+                margin: 0 auto;
+            }
+
+            .hero-content {
+                width: 100%;
+                margin: 35px 0px;
+                text-align: center;
+            }
+
+            .hero-content h2 {
+                font-size: 30px;
+            }
+
+            .hero-content p {
+                font-size: 10px;
+                margin-bottom: 20px;
+            }
+
+            .hero-content button {
+                font-size: 16px;
+                padding: 8px 16px;
+
+            }
+
+            .hero-image {
+                width: 100%;
+
+            }
+            
+            .hero-image{
+                mix-blend-mode: color-burn;
+            }
+
+            .devs ul{
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .devs ul li{
+                margin: 15px 0;
+            }
+        }
+
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translate(50px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translate(0px);
+            }
+        }
+
+        @keyframes fadeInRight {
+            0% {
+                opacity: 0;
+                transform: translateX(-50px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateX(0px);
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <section class="hero">
+        <div class="heading">
+            <h1>Know more about us</h1>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h2>Welcome to Aura Loom</h2>
+               
+                    <br>
+                    <p><b>"Aura"</b> typically refers to a distinctive atmosphere or quality, often associated with a person, place, or thing. It can convey a sense of presence, energy, or ambiance.</p>
+
+                    <p><b>"Loom"</b> can refer to a device used for weaving or creating fabric. In a broader sense, it can also suggest the idea of crafting or creating something.
+                        
+                    Combining these elements, "Auraloom" could suggest the creation or weaving of a distinctive atmosphere or quality. It might imply a focus on crafting an immersive experience or product, possibly within the realm of sound (given the inclusion of "audio" in "aura").</p>
+                <button class="cta-button"><a href="contacts.html" style="text-decoration: none ;background-color: #e4158a;">contact us</a></button>
+            </div>
+            <div class="hero-image">
+                <img src="logo.png">
+            </div>
+        </div>
+        <hr>
+    </section>
+    
+    <div class="devs ">
+        <h1>Our Team</h1>
+        <ul>
+            <li class="card">
+                <img src="lipika.jpg" alt="" class="card-img-top">
+                <span class="card-body">
+                    <h2 class="card-title">Lipika</h2>
+                    <section class="info">
+                        2241019548
+                        <div class="contacts">
+                            <a href="" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+                            <a href="" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+                            <a href="" target="_blank"><i class='bx bxl-github' ></i></a>
+                            <a href="" target="_blank"><i class='bx bxl-twitter' ></i></a>
+                        </div>
+                    </section>
+                </span>
+            </li>
+            <li class="card">
+                <img src="soumya.jpg" alt="" class="card-img-top">
+                <span class="card-body">
+                    <h2 class="card-title">Soumya</h2>
+                    <section class="info">
+                        2241019008
+                        <div class="contacts">
+                            <a href="https://www.instagram.com/soumya_sagarika?igsh=cXVuNjZ4YnkxcjQ5" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+                            <a href="" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+                            <a href="" target="_blank"><i class='bx bxl-github' ></i></a>
+                            <a href="" target="_blank"><i class='bx bxl-twitter' ></i></a>
+                        </div>
+                    </section>
+                </span>
+            </li>
+            <li class="card">
+                <img src="pratistha.jpg" alt="" class="card-img-top">
+                <span class="card-body">
+                    <h2 class="card-title">Pratishtha</h2>
+                    <section class="info">
+                        2241019012
+                        <div class="contacts">
+                            <a href="" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+                            <a href="" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+                            <a href="" target="_blank"><i class='bx bxl-github' ></i></a>
+                            <a href="" target="_blank"><i class='bx bxl-twitter' ></i></a>
+                        </div>
+                    </section>
+                </span>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
